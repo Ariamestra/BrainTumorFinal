@@ -26,7 +26,6 @@ Before running this project, you will need the following:
 
 To set up the project environment:
 1. Clone the repository:
-   ```
+```
    git clone https://github.com/yourusername/brain-tumor-classification.git
    cd brain-tumor-classification
-```
