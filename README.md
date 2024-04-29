@@ -15,8 +15,7 @@ This project uses a convolutional neural network (CNN) to classify MRI brain sca
 Before running this project, you will need the following:
 - Python 3.8 or later
 - pip (Python package installer)
-
-## Install the required packages
+- Install the required packages
 ```
 !pip install numpy tensorflow opencv-python matplotlib
 !pip install numpy requests Pillow
