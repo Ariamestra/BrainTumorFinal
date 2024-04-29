@@ -17,10 +17,10 @@ Before running this project, you will need the following:
 - pip (Python package installer)
 
 ## Install the required packages
-'''
+```
 !pip install numpy tensorflow opencv-python matplotlib
 !pip install numpy requests Pillow
-'''
+```
 
 ## Installation
 
@@ -29,8 +29,7 @@ To set up the project environment:
    ```bash
    git clone https://github.com/yourusername/brain-tumor-classification.git
    cd brain-tumor-classification
-
-
+```
 
 
 
