@@ -5,20 +5,31 @@ This project uses a convolutional neural network (CNN) to classify MRI brain sca
 
 ## Features
 
+- Fetch images from specified URLs.
 - Data preprocessing includes image resizing and normalization.
-- Model built using TensorFlow and Keras.
+- Data Augmentation
+- Split the image data into training and testing datasets.
+- Built CNN Model
 - Binary classification to detect the presence or absence of brain tumors.
 - Evaluation of model performance using accuracy and loss.
 
-## Prerequisites
+## Requirements
 
 Before running this project, you will need the following:
 - Python 3.8 or later
 - pip (Python package installer)
-- Install the required packages
+
+- tensorflow: For building and training the neural network models.
+- Pillow: For image manipulation tasks.
+- numpy: For numerical operations.
+- matplotlib: For plotting graphs.
+- seaborn: For enhanced data visualization.
+- requests: For HTTP requests to retrieve images.
+- sklearn: For machine learning tools like train-test splitting and metrics calculation.
+
+You can install these dependencies via pip:
 ```
-!pip install numpy tensorflow opencv-python matplotlib
-!pip install numpy requests Pillow
+!pip install numpy tensorflow opencv-python matplotlib requests Pillow
 ```
 
 ## Installation
@@ -28,3 +39,10 @@ To set up the project environment:
 ```
    git clone https://github.com/yourusername/brain-tumor-classification.git
    cd brain-tumor-classification
+```
+
+
+
+## Contributers
+- Maria Estrada - Ariamestra
+- Mauren Vasquez - marsvx
