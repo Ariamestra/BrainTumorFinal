@@ -2,6 +2,8 @@
 
 This project uses a convolutional neural network (CNN) to classify MRI brain scans into two categories: those that contain brain tumors and those that do not. The model is trained on a dataset of labeled [brain MRI images from a Kaggle dataset](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection/data).
 
+![Brain Scans Results Image](Images/1.png)
+
 
 ## Features
 
